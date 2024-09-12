@@ -1,0 +1,94 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    box-shadow: 0 1px 3px -2px black;
+}
+
+
+.nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.nav-logo p {
+    color: #171717;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+    color: #626262;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .25rem;
+    cursor: pointer;
+}
+
+.nav-menu hr {
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: .5rem;
+    background: #FF4141;
+}
+
+
+.nav-login-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.nav-login-cart button {
+    outline: none;
+    width: 7rem;
+    height: 2.5rem;
+    border: 1px solid #7a7a7a;
+    border-radius: 7.5rem;
+    color: #515151;
+    font-weight: 500;
+    font-size: 1rem;
+    background: white;
+    cursor: pointer;
+}
+
+.nav-login-cart button:active {
+    background: #f3f3f3;
+}
+
+.nav-login-img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.nav-cart-counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    margin-top: -40px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size: 1rem;
+    background: red;
+    color: white;
+}
+
+/* login ve shopping card çalışmıyor */
